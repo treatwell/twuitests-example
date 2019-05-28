@@ -1,2 +1,2 @@
-git "http://git.treatwell.net/ios/twuitests.git" "0.0.9"
 github "httpswift/swifter" "1.4.6"
+github "treatwell/twuitests" "0.1"

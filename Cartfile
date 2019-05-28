@@ -1,1 +1,1 @@
-git "http://git.treatwell.net/ios/twuitests.git" ~> 0.0.9
+git "https://github.com/treatwell/twuitests.git" ~> 0.1

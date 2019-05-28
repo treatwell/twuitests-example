@@ -6,7 +6,7 @@ Example of how to use [TWUITests framework](https://github.com/treatwell/twuites
 1. Create a project.
 2. Install Carthage.
 3. Create Cartfile and add: `git "https://github.com/treatwell/twuitests.git”`
-4. Run `carthage bootstrap --platform iOS`.
+4. Run `carthage update --platform iOS`.
 5. Add TWUITests framework to your UITests target:
   + Build settings: in Runpath Search Paths add `$(PROJECT_DIR)/Carthage/Build/iOS` to tell linker where to find frameworks.
   + Build phases: drag (from `Carthage/Build/iOS`) and drop TWUITests and Swifter frameworks into Link binaries and frameworks phase.
